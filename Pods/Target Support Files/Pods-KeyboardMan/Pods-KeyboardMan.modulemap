@@ -1,0 +1,6 @@
+framework module KeyboardMan {
+  umbrella header "Pods-KeyboardMan-umbrella.h"
+
+  export *
+  module * { export * }
+}
