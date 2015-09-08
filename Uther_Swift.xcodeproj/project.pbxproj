@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0ADB8987E80E54AB72EEB520 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C542749A8D3922AFB6D3D0 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6244ABDA1B9DA9EA00E6A136 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244ABD91B9DA9EA00E6A136 /* WelcomeViewController.swift */; };
+		6244ABDC1B9E94DB00E6A136 /* UtherDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244ABDB1B9E94DB00E6A136 /* UtherDisplayViewController.swift */; };
+		6244ABDE1B9E950700E6A136 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244ABDD1B9E950700E6A136 /* HistoryViewController.swift */; };
+		6244ABE01B9EA88E00E6A136 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6244ABDF1B9EA88E00E6A136 /* Reveal.framework */; };
+		6244ABE21B9ECFD700E6A136 /* HistoryTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6244ABE11B9ECFD700E6A136 /* HistoryTransitionManager.swift */; };
 		625189CC1B9D711F00964263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625189CB1B9D711F00964263 /* AppDelegate.swift */; };
-		625189CE1B9D711F00964263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625189CD1B9D711F00964263 /* ViewController.swift */; };
 		625189D11B9D711F00964263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625189CF1B9D711F00964263 /* Main.storyboard */; };
 		625189D31B9D711F00964263 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625189D21B9D711F00964263 /* Images.xcassets */; };
 		625189D61B9D711F00964263 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 625189D41B9D711F00964263 /* LaunchScreen.xib */; };
 		625189E21B9D711F00964263 /* Uther_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625189E11B9D711F00964263 /* Uther_SwiftTests.swift */; };
+		625189FE1B9D8BD800964263 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625189FD1B9D8BD800964263 /* MainViewController.swift */; };
+		62518A001B9D8E0F00964263 /* WelcomeTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625189FF1B9D8E0F00964263 /* WelcomeTransitionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +33,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6244ABD91B9DA9EA00E6A136 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6244ABDB1B9E94DB00E6A136 /* UtherDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtherDisplayViewController.swift; sourceTree = "<group>"; };
+		6244ABDD1B9E950700E6A136 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		6244ABDF1B9EA88E00E6A136 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		6244ABE11B9ECFD700E6A136 /* HistoryTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTransitionManager.swift; sourceTree = "<group>"; };
 		625189C61B9D711F00964263 /* Uther_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uther_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		625189CA1B9D711F00964263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625189CB1B9D711F00964263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		625189CD1B9D711F00964263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		625189D01B9D711F00964263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		625189D21B9D711F00964263 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		625189D51B9D711F00964263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		625189DB1B9D711F00964263 /* Uther_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Uther_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		625189E01B9D711F00964263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625189E11B9D711F00964263 /* Uther_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uther_SwiftTests.swift; sourceTree = "<group>"; };
+		625189FD1B9D8BD800964263 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		625189FF1B9D8E0F00964263 /* WelcomeTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeTransitionManager.swift; sourceTree = "<group>"; };
 		82C542749A8D3922AFB6D3D0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5813592CDB523FFA4340AD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C78CBB32D38A04F86FBC92B2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ADB8987E80E54AB72EEB520 /* Pods.framework in Frameworks */,
+				6244ABE01B9EA88E00E6A136 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +85,7 @@
 		625189BD1B9D711F00964263 = {
 			isa = PBXGroup;
 			children = (
+				6244ABDF1B9EA88E00E6A136 /* Reveal.framework */,
 				625189C81B9D711F00964263 /* Uther_Swift */,
 				625189DE1B9D711F00964263 /* Uther_SwiftTests */,
 				625189C71B9D711F00964263 /* Products */,
@@ -92,10 +106,13 @@
 		625189C81B9D711F00964263 /* Uther_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				625189EB1B9D824800964263 /* General */,
+				625189F41B9D824800964263 /* Resource */,
+				625189F51B9D824800964263 /* Section */,
+				625189FA1B9D824800964263 /* Vender */,
 				625189CB1B9D711F00964263 /* AppDelegate.swift */,
-				625189CD1B9D711F00964263 /* ViewController.swift */,
-				625189CF1B9D711F00964263 /* Main.storyboard */,
 				625189D21B9D711F00964263 /* Images.xcassets */,
+				625189CF1B9D711F00964263 /* Main.storyboard */,
 				625189D41B9D711F00964263 /* LaunchScreen.xib */,
 				625189C91B9D711F00964263 /* Supporting Files */,
 			);
@@ -125,6 +142,128 @@
 				625189E01B9D711F00964263 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		625189EB1B9D824800964263 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				625189EC1B9D824800964263 /* Extension */,
+				625189EF1B9D824800964263 /* Macro */,
+				625189F01B9D824800964263 /* Model */,
+				625189F11B9D824800964263 /* Network */,
+				625189F21B9D824800964263 /* Tool */,
+				625189F31B9D824800964263 /* Transition */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		625189EC1B9D824800964263 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				625189ED1B9D824800964263 /* Uther */,
+				625189EE1B9D824800964263 /* Vender */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		625189ED1B9D824800964263 /* Uther */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Uther;
+			sourceTree = "<group>";
+		};
+		625189EE1B9D824800964263 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		625189EF1B9D824800964263 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		625189F01B9D824800964263 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		625189F11B9D824800964263 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		625189F21B9D824800964263 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		625189F31B9D824800964263 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				6244ABE11B9ECFD700E6A136 /* HistoryTransitionManager.swift */,
+				625189FF1B9D8E0F00964263 /* WelcomeTransitionManager.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		625189F41B9D824800964263 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		625189F51B9D824800964263 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				625189F61B9D824800964263 /* Histroy */,
+				625189F71B9D824800964263 /* Main */,
+				625189F81B9D824800964263 /* Welcome */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		625189F61B9D824800964263 /* Histroy */ = {
+			isa = PBXGroup;
+			children = (
+				6244ABDD1B9E950700E6A136 /* HistoryViewController.swift */,
+			);
+			path = Histroy;
+			sourceTree = "<group>";
+		};
+		625189F71B9D824800964263 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				625189FD1B9D8BD800964263 /* MainViewController.swift */,
+				6244ABDB1B9E94DB00E6A136 /* UtherDisplayViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		625189F81B9D824800964263 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				6244ABD91B9DA9EA00E6A136 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		625189FA1B9D824800964263 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
 			sourceTree = "<group>";
 		};
 		D9BEA512CEC1C75A98A964F8 /* Pods */ = {
@@ -287,8 +426,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				625189CE1B9D711F00964263 /* ViewController.swift in Sources */,
+				6244ABDC1B9E94DB00E6A136 /* UtherDisplayViewController.swift in Sources */,
+				625189FE1B9D8BD800964263 /* MainViewController.swift in Sources */,
+				6244ABDA1B9DA9EA00E6A136 /* WelcomeViewController.swift in Sources */,
+				6244ABDE1B9E950700E6A136 /* HistoryViewController.swift in Sources */,
 				625189CC1B9D711F00964263 /* AppDelegate.swift in Sources */,
+				62518A001B9D8E0F00964263 /* WelcomeTransitionManager.swift in Sources */,
+				6244ABE21B9ECFD700E6A136 /* HistoryTransitionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,9 +562,49 @@
 			baseConfigurationReference = BE5813592CDB523FFA4340AD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Uther_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"GCD\"",
+					"-framework",
+					"\"JSQMessagesViewController\"",
+					"-framework",
+					"\"JSQSystemSoundPlayer\"",
+					"-framework",
+					"\"KeyboardMan\"",
+					"-framework",
+					"\"KeychainAccess\"",
+					"-framework",
+					"\"LTMorphingLabel\"",
+					"-framework",
+					"\"Moya\"",
+					"-framework",
+					"\"SQLite\"",
+					"-framework",
+					"\"SwiftColors\"",
+					"-framework",
+					"\"SwiftDate\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"XCGLogger\"",
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -430,9 +614,49 @@
 			baseConfigurationReference = C78CBB32D38A04F86FBC92B2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Uther_Swift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CryptoSwift\"",
+					"-framework",
+					"\"GCD\"",
+					"-framework",
+					"\"JSQMessagesViewController\"",
+					"-framework",
+					"\"JSQSystemSoundPlayer\"",
+					"-framework",
+					"\"KeyboardMan\"",
+					"-framework",
+					"\"KeychainAccess\"",
+					"-framework",
+					"\"LTMorphingLabel\"",
+					"-framework",
+					"\"Moya\"",
+					"-framework",
+					"\"SQLite\"",
+					"-framework",
+					"\"SwiftColors\"",
+					"-framework",
+					"\"SwiftDate\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"XCGLogger\"",
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
